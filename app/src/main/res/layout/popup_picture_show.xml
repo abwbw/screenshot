@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/show_img_iv"
+        android:layout_width="108dp"
+        android:layout_height="192dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/rectangle"
+        android:layout_gravity="right|center_vertical"
+        android:padding="2dp"/>
+</FrameLayout>
